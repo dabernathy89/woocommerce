@@ -298,7 +298,7 @@ final class WooCommerce {
 		include_once( WC_ABSPATH . 'includes/data-stores/interfaces/wc-abstract-order-data-store-interface.php' );
 		include_once( WC_ABSPATH . 'includes/data-stores/interfaces/wc-order-data-store-interface.php' );
 		include_once( WC_ABSPATH . 'includes/data-stores/interfaces/wc-order-refund-data-store-interface.php' );
-
+		include_once( WC_ABSPATH . 'includes/data-stores/interfaces/class-wc-meta-data-store-interface.php' );
 		include_once( WC_ABSPATH . 'includes/data-stores/class-wc-data-store-cpt.php' );
 		include_once( WC_ABSPATH . 'includes/data-stores/class-wc-coupon-data-store-cpt.php' );
 		include_once( WC_ABSPATH . 'includes/data-stores/class-wc-product-data-store-cpt.php' );
@@ -313,6 +313,7 @@ final class WooCommerce {
 		include_once( WC_ABSPATH . 'includes/data-stores/abstract-wc-order-data-store-cpt.php' );
 		include_once( WC_ABSPATH . 'includes/data-stores/class-wc-order-data-store-cpt.php' );
 		include_once( WC_ABSPATH . 'includes/data-stores/class-wc-order-refund-data-store-cpt.php' );
+		include_once( WC_ABSPATH . 'includes/data-stores/class-wc-meta-data-store.php' );
 
 		$this->query = new WC_Query();
 		$this->api   = new WC_API();
