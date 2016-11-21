@@ -40,7 +40,6 @@ class WC_Data_Store {
 		'product_variable'  => 'WC_Product_Variable_Data_Store_CPT',
 		'product_variation' => 'WC_Product_Variation_Data_Store_CPT',
 		'shipping-zone'     => 'WC_Shipping_Zone_Data_Store',
-		'meta'              => 'WC_Meta_Data_Store',
 	);
 
 	/**
